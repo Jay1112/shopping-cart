@@ -1,0 +1,92 @@
+.home {
+	display: flex;
+	padding: 10px;
+
+	width: 100%;
+
+	align-items: center;
+	justify-content: center;
+}
+
+	.productContainer {
+		display: flex;
+		width: 95%;
+		padding: 20px;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+.singleItem {
+	margin: 5px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+	.CartDetails {
+		max-width: 200px;
+	}
+
+.cartPage {
+	display: flex;
+	padding: 10px;
+
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	margin-top: 65px;
+}
+
+	.PriceTracker {
+		flex : 1;
+		width: 100%;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.cartProducts {
+		flex : 1;
+		width: 100%;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+		.cartItem {
+			width: 50%;
+			min-width: 350px;
+			max-width: 600px;
+			display: flex;
+			flex-direction: row;
+		
+			border: 1px solid #787878;
+			border-radius: 10px;
+			margin: 5px 5px;
+		}
+
+			.imagePart {
+				margin: 0 5px;
+			}
+
+			.details {
+				display: flex;
+				flex-direction: column;
+				flex: 1;
+				align-items: flex-start;
+				justify-content: center;
+			}
+
+			.removeButton {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 0 5px;
+			}
+
+
